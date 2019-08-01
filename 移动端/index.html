@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/yidong.css" type="text/css">
+    
+    <script type="text/javascript">
+        function init(){
+            var width=document.documentElement.clientWidth;
+            //动态设置设备的html字体大小
+          document.documentElement.style.fontSize = width /10+ 'px';
+        }
+        
+        init()
+        //当屏幕宽度变化时
+        window.addEventListener('resize',init)
+        //当切换横竖屏时
+        window.addEventListener('orientationchange',init)
+        
+      </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar" id="bar">
+            <a href="#" class="yys_Icon"><img
+                    src="https://webinput.nie.netease.com/img/yys/icon.png/128" alt="icon"></a>
+            <div class="signs">
+                <span>阴阳师</span>
+                <p>网易和风匠心巨制</p>
+            </div>
+            <a href="#" class="down" title="下载"></a>
+            <a href="#" class="searchBtn" id="searchBtn" title="搜索"></a>
+            
+        </div>
+        <div class="wrap topWrap">
+            <div class=" banner ">
+               
+                <div class="swiper-pagination bn_hd"></div>
+            </div>
+            <a href="https://adl.netease.com/d/g/yys/c/gwm" class="downGame" id="downGame" pub-name="下载游戏"
+                title="下载游戏"></a>
+        </div>
+      
+    </div>
+</body>
+
+</html>

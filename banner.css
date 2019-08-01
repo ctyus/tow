@@ -1,0 +1,369 @@
+.banner_worp{
+   
+    /* margin-top: 59px; */
+    /* overflow: hidden; */
+    /* width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    min-width: 1280px; */
+    display: flex;
+justify-content: center;
+position: relative;
+    
+  
+    
+}
+.banner_worp_img{
+    width: 1920px;
+    display: block;
+    height: 784px;
+position: relative;
+transition: all 6s;
+
+    /* margin: 0 auto; */
+    animation:gundong-img 20s ease-in infinite ;
+    
+}
+@keyframes gundong-img{
+    0%,15%{
+        background: url(https://nie.res.netease.com/r/pic/20190729/a63d1944-0bf1-43e8-8d44-eb37b236dc37.jpg);
+    }
+    25%,40%{
+       background: url(https://nie.res.netease.com/r/pic/20190729/3f460110-93f6-4438-952e-405e80885a2d.jpg);
+    }
+    50%,65%{
+        background: url(https://nie.res.netease.com/r/pic/20190729/c0105122-3e55-4471-8cbe-104900526d1c.jpg);
+    }
+    75%,90%{
+        background: url(https://nie.res.netease.com/r/pic/20190625/acc14d65-5263-427d-b195-da8d743285cc.png);
+    }
+    100%{
+        background: url(https://nie.res.netease.com/r/pic/20190729/026f50e1-f29f-492c-aa9f-e1cc9c9e8535.jpg);
+    }
+    100%{
+        background: url(https://nie.res.netease.com/r/pic/20190729/a63d1944-0bf1-43e8-8d44-eb37b236dc37.jpg);
+    }
+    
+}
+.img_bottom{
+
+    
+    width: 100%;
+    height: 287px;
+    position: absolute;
+    background: url(https://yys.res.netease.com/pc/gw/20180913151832/img/bot_head_bg_450ba6b.png) center bottom repeat-x;
+    bottom: 0;
+    left: 0;
+}
+.img_bottom_box{
+    width: 1180px;
+    height: 560px;
+    margin: 0 auto;
+
+   
+}
+.bottom_box_lefttopbox{
+    width: 145px;
+    height: 287px;
+    padding-top: 47px;
+    padding-bottom: 27px;
+    background: url(../index_z_f101808.png) 0px 0px no-repeat;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+}
+.lefttopbox_box{
+    margin: 0 auto;
+    position: relative;
+}
+.lefttopbox_weixin{
+    width: 107px;
+    height: 107px;
+    margin: 0 19px;
+}
+.lefttopbox_weixin > img{
+    width: 100%;
+    display: block;
+}
+.box_saomian{
+    position: absolute;
+    display: block;
+    left: 12px;
+    top: 45px;
+    animation-name: saomiao;
+    animation-duration: 2s;
+    /* 定义动画 */
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+@keyframes saomiao{
+    0% {
+        top:-3px;
+    }                         /* 动画*/
+    50% {
+        top:45px;
+    }
+    100%{
+        top:98px;
+    }
+}
+.lefttopbox_box > a{
+    display: block;
+    margin: 10px auto;
+    width: 107px;
+    height: 47px;
+    
+}
+.lefttopbox_box_a1{
+    background:  url(https://yys.res.netease.com/pc/gw/20180913151832/img/tycsf_btn_3b89406.png) center center no-repeat;
+}
+.lefttopbox_box_a2{
+    background: url(https://yys.res.netease.com/pc/gw/20180913151832/img/xzzmb_btn_3a5e9d5.png) no-repeat;
+}
+.news_con{
+   
+    float: right;
+    margin-left: 14px;
+  
+    width: 1021px;
+    height: 273px;
+}
+.img_bottom_box .news_con .news_tab{
+    height: 41px;
+    width: 324px;
+    margin-top: 2px;
+}
+.img_bottom_box .news_con .news_tab .clr{
+    width: 321px;
+    height: 41px;
+    float: left;
+    zoom: 1;
+    margin-top: 1px;
+}
+.img_bottom_box .news_con .news_tab .clr .on{
+    background: rgba(0,0,0,.8);
+    color: #c2a060;
+    line-height: 34px;
+}
+.img_bottom_box .news_con .news_tab .clr li{
+    float: left;
+    text-align: center;
+    width: 160px;
+    height: 41px;
+    letter-spacing: 3px;     /* 定义字符间距*/
+    background: url(../index_z_f101808.png) -958px -235px no-repeat;
+    line-height: 34px;
+    position: relative;
+}
+.on_xiaxian{
+    background: url(../index_z_f101808.png) -152px -283px no-repeat;
+    width: 83px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_bottom_box .news_con .news_tab .clr li a{
+    display: block;
+    width: 160px;
+    height: 41px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.clr_yingcang{
+    background: url(../index_z_f101808.png) -152px -283px no-repeat;
+    width: 83px;
+    height: 4px;
+   display: none;
+    margin: 0 auto;
+    
+   
+}
+/* 点击事件 */
+.clr .on2:visited{
+    background: rgba(0,0,0,.8) !important; 
+    color: #c2a060;
+    line-height: 34px;
+   
+}
+.clr .on2:visited .clr_yingcang{
+    display: block;
+}
+.clr .on2:visited .on{
+    background:none;
+    
+    color: #000;
+    line-height: 34px;
+}
+.clr .on2:hover{
+    background: rgba(0,0,0,.8) !important; 
+    
+    color: #c2a060;
+    line-height: 34px;
+    
+} 
+ .clr .on2:hover .clr_yingcang{
+    display: block;
+}
+
+.news_box{
+    width: 1021px;
+    
+    height: 230px;
+    position: relative;
+    
+}
+.news_box .zixun_box{
+    position: absolute;
+     width: 1021px; 
+     left: 0px;
+      top: 0px;
+      height: 230px;
+      overflow: hidden;
+}
+.news_box .zixun_box ul{
+    height: 177px;
+    position: absolute;
+    top: 20px;
+    width: 6300px;
+    /* width: 1021px; */
+    /* background-color: rgb(0, 174, 255); */
+    /* overflow:scroll; */
+    overflow: hidden;
+    animation-name: mymove;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+}
+.news_box .zixun_box ul:hover{
+animation-play-state: paused;
+}
+@keyframes mymove{
+  from{
+      left: -3100px;
+  }
+  to{ left: 0px;}
+}
+.recommend{
+    width: 240px;
+    height: 177px;
+
+}
+.news_box .zixun_box li.recommend a{
+    font-weight: 700;
+}
+.recommend .tuijian{
+    position: relative;
+    width: 240px;
+    height: 123px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.recommend .tuijian > img{
+    width: 240px;
+    height: auto;
+    border: 0;
+}
+.recommend .tuijian  > i{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 15px;
+    display: block;
+    padding: 2px 3px;
+    color:#fff;
+    background-color: #f24853;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.tj_con{
+    width: 210px;
+    padding: 10px 15px 0;
+    background: #fff;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    text-align: center;
+    line-height: 44px;
+}
+.zixun_box li{
+    float: left;
+    margin-left: 15px;
+}
+.none_img{
+    width: 200px;
+    height: 141px;
+    padding: 20px 20px 16px;
+    background: #fff;
+}
+.none_img p{
+    color: #333;
+    margin: 10px 0;
+    height: 40px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.none_img .arrow{
+    display: block;
+    width: 41px;
+    height: 5px;
+    background: url(https://yys.res.netease.com/pc/gw/20180913151832/img/arrow_245be57.png) no-repeat; ;
+    
+    margin-left: 160px;
+   
+}
+.news_btn{
+    width: 1020px;
+    text-align: right;
+    margin-top: 10px;
+    line-height: 22px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.news_btn a{
+    color: #ccc;
+    margin-left: 15px;
+}
+.n_line{
+    width: 1px;
+    height: 13px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+.more img{
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.news_btn a:hover{
+    text-decoration: underline;
+}
+.xinfu_box{
+    position: absolute;
+    width: 1021px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: none;
+   background-color: rgb(0, 255, 42);
+}
+:target{
+    z-index: 2;
+}
